@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\developer\Documents\GitHub\Elysian\Elysian\App.xaml
-71389280337
+8-60586373
 
 3-917710711
 1921654412462
-MainWindow.xaml;Theme\Elysian.Button.xaml;Theme\Elysian.CheckBox.xaml;Theme\Elysian.ComboBox.xaml;Theme\Elysian.ListViewItem.xaml;Theme\Elysian.ProgressBar.xaml;Theme\Elysian.Slider.xaml;
+MainWindow.xaml;Theme\Elysian.Button.xaml;Theme\Elysian.CheckBox.xaml;Theme\Elysian.ComboBox.xaml;Theme\Elysian.GroupBox.xaml;Theme\Elysian.ListViewItem.xaml;Theme\Elysian.ProgressBar.xaml;Theme\Elysian.Slider.xaml;
 
-True
+False
 

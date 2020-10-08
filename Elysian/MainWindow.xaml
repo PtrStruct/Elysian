@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Elysian"
         mc:Ignorable="d"
-        Title="Elysian Theme Framework" Height="450" Width="820"
+        Title="Elysian Theme Framework" Height="600" Width="1200"
         Background="#1E1E1E">
     <Grid>
         <Grid.ColumnDefinitions>
@@ -116,10 +116,36 @@
         </StackPanel>
 
 
-        <StackPanel 
-                    Grid.Column="3"
+
+
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    Margin="10">
+            <Label Content="GroupBox"
+                   Foreground="White"
+                   FontFamily="Consolas"
+                   HorizontalAlignment="Center"/>
+            <GroupBox Height="95"
+                      Width="Auto"
+                      Header="Theme"
+                      Style="{StaticResource ElysianGroupBox}"
+                      Padding="10">
+
+                <ComboBox Style="{DynamicResource ElysianComboBox}" 
+                          Width="100"
+                          SelectedIndex="0">
+                    <ComboBoxItem Content="Dark"/>
+                    <ComboBoxItem Content="Bright"/>
+                </ComboBox>
+
+            </GroupBox>
+        </StackPanel>
+
+
+        <StackPanel Grid.Column="1"
+                    Grid.Row="2"
                     Grid.RowSpan="2"
-                    Margin="0,0,0,0">
+                    Margin="0,30,0,0">
             <Label Content="ListView"
                    Foreground="White"
                    FontFamily="Consolas"

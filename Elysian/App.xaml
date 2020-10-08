@@ -12,6 +12,7 @@
                 <ResourceDictionary Source="Theme/Elysian.ListViewItem.xaml"/>
                 <ResourceDictionary Source="Theme/Elysian.ProgressBar.xaml"/>
                 <ResourceDictionary Source="Theme/Elysian.ComboBox.xaml"/>
+                <ResourceDictionary Source="Theme/Elysian.GroupBox.xaml"/>
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>

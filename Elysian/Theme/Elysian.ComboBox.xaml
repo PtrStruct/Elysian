@@ -2,8 +2,8 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <!--Default Colors-->
-    <SolidColorBrush x:Key="ComboBoxNormalBorderBrush" Color="DarkGray" />
-    <SolidColorBrush x:Key="ArrowColor" Color="#FFF" />
+    <SolidColorBrush x:Key="ComboBoxNormalBorderBrush" Color="#303030" />
+    <SolidColorBrush x:Key="ArrowColor" Color="#505050" />
     <SolidColorBrush x:Key="ComboBoxNormalBackgroundBrush" Color="#252525" />
     <SolidColorBrush x:Key="ComboBoxDisabledForegroundBrush" Color="#888" />
     <SolidColorBrush x:Key="ComboBoxDisabledBackgroundBrush" Color="Red" />

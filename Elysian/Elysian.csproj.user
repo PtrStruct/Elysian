@@ -19,6 +19,9 @@
     <Page Update="Theme\Elysian.ComboBox.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Theme\Elysian.GroupBox.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Theme\Elysian.ListViewItem.xaml">
       <SubType>Designer</SubType>
     </Page>
